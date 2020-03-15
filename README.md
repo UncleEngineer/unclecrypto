@@ -24,7 +24,7 @@ pip install unclecrypto
 - เปิด Python แล้วพิพม์ตามนี้เลย
 
 ```sh
-from unclecrypto import rangeprice
+from unclecrypto import rangeprice, dayprice
 
 LISTPRICE,DICTPRICE = rangeprice('bitcoin',start='20200105',end='20200131')
 print(LISTPRICE) # ['Feb 01 2020', 9346.36, 9439.32, 9313.24, 9392.88, 25922656496, 170900662180]
